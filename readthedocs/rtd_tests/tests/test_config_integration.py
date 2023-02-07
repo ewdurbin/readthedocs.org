@@ -23,7 +23,7 @@ def create_load(config=None):
     if config is None:
         config = {}
 
-    def inner(path=None, env_config=None):
+    def inner(path=None, env_config=None, config_file=None):
         env_config_defaults = {
             'output_base': '',
             'name': '1',

@@ -31,6 +31,7 @@ class ProjectSerializer(serializers.ModelSerializer):
             'users',
             'canonical_url',
             'urlconf',
+            'rtd_conf_file',
         )
 
 
